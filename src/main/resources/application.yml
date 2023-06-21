@@ -1,0 +1,13 @@
+Spring:
+  datasource:
+     url: jdbc:sqlserver://localhost:1433;databaseName=EmployeeDetails;encrypt=true;trustServerCertificate=true
+     username: sa
+     password: Admin#123
+  jpa:
+    show-sql: true
+    hibernate:
+     ddl-auto: update
+    
+
+server:
+   port: 9090
